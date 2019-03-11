@@ -1,4 +1,3 @@
-@import 'public';
 body,ul,li,p,h1,h2,h3,h4,h5,h6,a,span,dl,dt,dd{margin: 0;padding: 0;}
 li{
 	list-style: none;
@@ -17,4 +16,108 @@ body,html{
 	height: 100%;
 	margin: 0;
 	padding: 0;
+}
+
+@import 'public';
+
+
+.big-lb{
+	position: relative;
+	.big-lb-list{
+		width: 234px;
+		height: 500px;
+		background: rgba(0,0,0,0.6);
+		position: absolute;
+		top: 0;
+		left: 105px;
+		z-index: 10;
+		ul{
+			padding-top: 25px;
+			.list-li{
+				a:first-child{
+					display: block;
+					padding-left: 30px;
+					height: 45px;
+					line-height: 45px;
+					color: #ffffff;
+					font-size: 15px;
+					i{
+						float: right;
+						margin-right: 25px;
+					}
+				}
+				.lb-list-one{
+					width: 227px;
+					height: 500px;
+					// background: yellow;
+					position: absolute;
+					top: 0;
+					left: 234px;
+					ul{
+						background: #ffffff;
+						padding: 0;
+						height: 500px;
+						li{
+							height: 76px;
+							// border: 1px solid black;
+							a{
+								// background: red;
+								padding: 18px 20px;
+								line-height: 40px;
+								img{
+									display: inline-block;
+									float: left;
+								}
+								span{
+									float: left;
+									color: #333;
+									margin-left:6px;
+									 font-size: 14px;
+								}
+							}
+						}
+					}
+				}
+			}
+			.list-li:hover{
+				background: #ed1c24;
+			}
+		}
+	}
+}
+
+
+.swiper-container {
+	width: 100%;
+	height: 500px;
+	.swiper-wrapper{
+		.swiper-slide{
+			.LB{
+				width: 100%;
+				height: 500px;
+			}
+		}
+// 		@for $i from 1 through 4{
+// 			div:nth-of-type(#{$i}) .LB{
+// 				background: url(../imgmin/LB#{$i}.jpg) -250px;
+// 			}
+// 		}
+	}
+	
+	.swiper-button-prev{
+		background: url(../imgmin/JTleft4.png) no-repeat;
+		left: 50px;
+	}
+	.swiper-button-next{
+		background: url(../imgmin/JTright4.png) no-repeat;
+		right: 60px;
+	}
+}
+.swiper-pagination-bullets{
+	span{
+		width:45px;
+		height: 5px;
+		background: #000000;
+		border-radius: 0%;
+	}
 }

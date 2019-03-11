@@ -3,8 +3,8 @@ const gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	cssnano = require('gulp-cssnano'),
 	imagemin = require('gulp-imagemin')
-	uglify = require('gulp-uglify'),
-	babel = require("gulp-babel");
+	uglify = require('gulp-uglify');
+	// babel = require("gulp-babel");
 	
 gulp.task('js',function(){
 	gulp.src('./src/js/*.js')
@@ -25,5 +25,5 @@ gulp.task('img',function(){
 	.pipe(gulp.dest('./dist/imgmin'))
 })
 gulp.task('default',function(){
-	gulp.watch(['./src/sass/*.scss','./src/img/*.jpg','./src/js/*.js'],['sass','img','js']);
+	gulp.watch(['./src/sass/*.scss','./src/img/*.jpg',],['sass','img']);
 })
