@@ -1,4 +1,4 @@
-body, ul, li, p, h1, h2, h3, h4, h5, h6, a, span, dl, dt, dd {
+body, ul, li, p, h1, h2, h3, h4, h5, h6, a, span {
   margin: 0;
   padding: 0; }
 
@@ -165,3 +165,115 @@ body, html {
           color: #eb1c24; }
         .suction-top .nav-suction-top ul li:hover .nav-hover-div {
           display: block; }
+
+.footer {
+  width: 100%; }
+  .footer .foot-container {
+    width: 1140px;
+    margin: 0 auto; }
+    .footer .foot-container .footer-top {
+      border-bottom: 1px solid #ccc;
+      padding: 40px 0 20px 0; }
+      .footer .foot-container .footer-top ul {
+        padding: 0;
+        width: 1100px;
+        height: 54px;
+        margin: 0 auto; }
+        .footer .foot-container .footer-top ul li {
+          width: 175px;
+          float: left;
+          position: relative;
+          display: block;
+          padding-left: 35px; }
+          .footer .foot-container .footer-top ul li .foo-con {
+            float: left;
+            margin: 16px 12px 0 0; }
+            .footer .foot-container .footer-top ul li .foo-con img {
+              vertical-align: middle; }
+          .footer .foot-container .footer-top ul li .foo-title {
+            display: inline-block;
+            color: #b2b2b2; }
+            .footer .foot-container .footer-top ul li .foo-title h4 {
+              margin-top: 10px;
+              margin-bottom: 5px;
+              font-size: 18px; }
+            .footer .foot-container .footer-top ul li .foo-title p {
+              font-size: 85%; }
+    .footer .foot-container .footer-links {
+      padding: 50px 0;
+      border-top: 1px solid #eaeaea;
+      height: 320px; }
+      .footer .foot-container .footer-links dl {
+        float: left;
+        width: 140px;
+        margin-top: 0;
+        margin-bottom: 20px; }
+        .footer .foot-container .footer-links dl dt {
+          line-height: 35px;
+          font-weight: 600; }
+        .footer .foot-container .footer-links dl dd {
+          line-height: 35px;
+          font-size: 12px;
+          margin-left: 0; }
+          .footer .foot-container .footer-links dl dd a {
+            color: #767676; }
+          .footer .foot-container .footer-links dl dd a:hover {
+            color: #ff5d59; }
+      .footer .foot-container .footer-links .links-iphone {
+        border-left: 1px solid #eaeaea;
+        width: 250px;
+        height: 125px;
+        float: right;
+        text-align: center; }
+        .footer .foot-container .footer-links .links-iphone p:nth-of-type(1) {
+          font-size: 14px;
+          color: #6f6c71;
+          font-weight: 600;
+          margin: 0 0 10px; }
+        .footer .foot-container .footer-links .links-iphone p:nth-of-type(2) {
+          color: #ff5d59;
+          font-size: 26px;
+          margin-bottom: 15px; }
+        .footer .foot-container .footer-links .links-iphone a {
+          border: 1px solid #ff5d59;
+          padding: 5px 10px;
+          color: #ff5d59; }
+
+.footer-law {
+  width: 100%;
+  height: 100px;
+  background: #313131;
+  line-height: 100px;
+  clear: both; }
+  .footer-law .footer-law-logo {
+    float: left;
+    margin-left: 100px; }
+    .footer-law .footer-law-logo img {
+      margin-top: 36px; }
+  .footer-law .footer-law-list {
+    float: right;
+    color: #666;
+    font-size: 12px;
+    margin-right: 100px; }
+    .footer-law .footer-law-list p {
+      display: inline;
+      margin: 0 0 10px; }
+    .footer-law .footer-law-list span {
+      margin-right: 5px; }
+    .footer-law .footer-law-list a {
+      color: #666; }
+    .footer-law .footer-law-list a:hover {
+      color: #ffffff; }
+
+.footer-btm {
+  height: 52px;
+  background: #f8f8f8;
+  text-align: center;
+  padding: 10px 0;
+  position: relative; }
+  .footer-btm .footer-btm-img {
+    width: 366px;
+    height: 52px;
+    margin: 0 auto; }
+    .footer-btm .footer-btm-img a img {
+      float: left; }
