@@ -335,7 +335,7 @@ body, html {
     .detail .detail-container .detail-div {
       width: 100%;
       height: 600px;
-      background: yellow; }
+      background: #ffffff; }
       .detail .detail-container .detail-div .detail-div-left {
         width: 58%;
         float: left;
@@ -375,6 +375,8 @@ body, html {
             width: 538px;
             height: 538px;
             position: absolute; }
+          .detail .detail-container .detail-div .detail-div-left .detail-left-Bigimg img:nth-of-type(1) {
+            z-index: 10; }
       .detail .detail-container .detail-div .detail-div-right {
         width: 39%;
         height: 538px;
@@ -404,3 +406,69 @@ body, html {
               height: 18px;
               display: inline;
               vertical-align: center; }
+        .detail .detail-container .detail-div .detail-div-right .time-div {
+          width: 415px;
+          height: 53px;
+          line-height: 25px;
+          font-size: 12px;
+          background: #f8f8f8;
+          padding: 10px; }
+          .detail .detail-container .detail-div .detail-div-right .time-div span {
+            font-family: sans-serif;
+            background: transparent;
+            border: 1px #f30 solid;
+            color: #f60;
+            font-size: 11px;
+            padding: 1px 2px;
+            font-weight: normal;
+            line-height: normal;
+            border-radius: 5px; }
+        .detail .detail-container .detail-div .detail-div-right ul {
+          height: 20px;
+          margin-top: 50px; }
+          .detail .detail-container .detail-div .detail-div-right ul li {
+            float: left;
+            margin-left: 10px;
+            font-size: 14px; }
+        .detail .detail-container .detail-div .detail-div-right .cartTV4 {
+          width: 116px;
+          height: 32px;
+          margin-top: 50px; }
+          .detail .detail-container .detail-div .detail-div-right .cartTV4 div {
+            width: 27px;
+            height: 30px;
+            border: 1px solid #ccc;
+            float: left;
+            text-align: center;
+            line-height: 30px;
+            cursor: pointer; }
+          .detail .detail-container .detail-div .detail-div-right .cartTV4 .goodsInputNum {
+            float: left;
+            width: 50px;
+            height: 28px;
+            padding: 0;
+            text-align: center; }
+        .detail .detail-container .detail-div .detail-div-right .div-btn-cart {
+          margin-top: 50px;
+          padding: 15px; }
+          .detail .detail-container .detail-div .detail-div-right .div-btn-cart a:nth-of-type(1) {
+            width: 190px;
+            height: 40px;
+            line-height: 40px;
+            padding: 0;
+            font-size: 16px;
+            background: #ed1c24;
+            border-color: #ed1c24;
+            color: #fff;
+            display: inline-block;
+            text-align: center; }
+          .detail .detail-container .detail-div .detail-div-right .div-btn-cart a:nth-of-type(2) {
+            width: 190px;
+            height: 40px;
+            line-height: 40px;
+            padding: 0;
+            font-size: 16px;
+            background: #ff9f00;
+            color: #fff;
+            display: inline-block;
+            text-align: center; }

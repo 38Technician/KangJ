@@ -104,7 +104,8 @@ $(function () {
 
 	//提交按钮
 	$btn.click(function () {
-		if (num === 4) {
+		var re = /^[A-Za-z0-9\u4e00-\u9fa5]{3,6}$/;
+		if ($upwdAgain.val() == $upwd.val() && re.test($uname.val())) {
 			var uname = $uname.val();
 			var upwd = $upwd.val();
 			//获取cookie
