@@ -523,64 +523,13 @@ body,html{
 
 
 
-//侧边工具栏
-.tool{
-	background: #ffffff;
-	position: fixed;
-	z-index: 1000;
-	right: 0;
-	bottom: 150px;
-	ul{
-		border-left: 1px solid #ccc;
-		border-right: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
-		li{
-			width: 42px;
-			height: 42px;
-			border-top: 1px solid #ccc;
-			text-align: center;
-			// transition: all 0.5s;
-			span:nth-of-type(1){
-				display: inline-block;
-				background-size: 100% 100%;
-				width: 25px;
-				height: 25px;
-				margin-top: 8px;
-				margin-left: 3px;
-				font-size: 20px;
-				color: #828282;
-			}
-			
-			span:nth-of-type(2){
-				width: 42px;
-				height: 42px;
-				display: none;
-				color: #ffffff;
-			}
-		}
-		// transition: all 0.5s;
-		li:nth-of-type(1){
-			span:nth-of-type(1){
-				background: url(../imgmin/kefu.jpg) no-repeat;
-			}
-		}
-		li:hover{
-			span:nth-of-type(1){
-				display: none;
-			}
-			span:nth-of-type(2){
-				display: block;
-				background: #ed1c24;
-			}
-		}
-	}
-}
+
 //侧边导航栏
 .anchor{
 	position: fixed;
 	z-index: 1000;
 	left: 30px;
-	top:50px;
+	top:100px;
 	display: none;
 	ul{
 		li{

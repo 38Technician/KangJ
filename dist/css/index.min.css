@@ -19,7 +19,7 @@ body, html {
   margin: 0;
   padding: 0; }
 
-body, ul, li, p, h1, h2, h3, h4, h5, h6, a, span {
+body, ul, li, p, h1, h2, h3, h4, h5, h6, a, span, dl, dt, dd {
   margin: 0;
   padding: 0; }
 
@@ -93,6 +93,8 @@ body, html {
         float: left;
         margin-left: 20px;
         margin-top: 10px; }
+      .banner-top-btm .list-right p:nth-of-type(3) #cart-num {
+        color: #ffffff; }
 
 .suction-top {
   width: 100%;
@@ -298,6 +300,43 @@ body, html {
     margin: 0 auto; }
     .footer-btm .footer-btm-img a img {
       float: left; }
+
+.tool {
+  background: #ffffff;
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  bottom: 150px; }
+  .tool ul {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; }
+    .tool ul li {
+      width: 42px;
+      height: 42px;
+      border-top: 1px solid #ccc;
+      text-align: center; }
+      .tool ul li span:nth-of-type(1) {
+        display: inline-block;
+        background-size: 100% 100%;
+        width: 25px;
+        height: 25px;
+        margin-top: 8px;
+        margin-left: 3px;
+        font-size: 20px;
+        color: #828282; }
+      .tool ul li span:nth-of-type(2) {
+        width: 42px;
+        height: 42px;
+        display: none;
+        color: #ffffff; }
+    .tool ul li:nth-of-type(1) span:nth-of-type(1) {
+      background: url(../imgmin/kefu.jpg) no-repeat; }
+    .tool ul li:hover span:nth-of-type(1) {
+      display: none; }
+    .tool ul li:hover span:nth-of-type(2) {
+      display: block;
+      background: #ed1c24; }
 
 .big-lb {
   position: relative; }
@@ -667,48 +706,11 @@ body, html {
             color: #4b98ec;
             font-size: 12px; }
 
-.tool {
-  background: #ffffff;
-  position: fixed;
-  z-index: 1000;
-  right: 0;
-  bottom: 150px; }
-  .tool ul {
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc; }
-    .tool ul li {
-      width: 42px;
-      height: 42px;
-      border-top: 1px solid #ccc;
-      text-align: center; }
-      .tool ul li span:nth-of-type(1) {
-        display: inline-block;
-        background-size: 100% 100%;
-        width: 25px;
-        height: 25px;
-        margin-top: 8px;
-        margin-left: 3px;
-        font-size: 20px;
-        color: #828282; }
-      .tool ul li span:nth-of-type(2) {
-        width: 42px;
-        height: 42px;
-        display: none;
-        color: #ffffff; }
-    .tool ul li:nth-of-type(1) span:nth-of-type(1) {
-      background: url(../imgmin/kefu.jpg) no-repeat; }
-    .tool ul li:hover span:nth-of-type(1) {
-      display: none; }
-    .tool ul li:hover span:nth-of-type(2) {
-      display: block;
-      background: #ed1c24; }
-
 .anchor {
   position: fixed;
   z-index: 1000;
   left: 30px;
-  top: 50px;
+  top: 100px;
   display: none; }
   .anchor ul li {
     width: 40px;
